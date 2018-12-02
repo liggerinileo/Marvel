@@ -1,0 +1,6 @@
+<img class="marvellogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MarvelLogo.svg/1200px-MarvelLogo.svg.png" alt="Marvel">
+<form class="buscar form-inline">
+  {{input class="form-control mr-sm-2" value=searchTerm type='text' placeholder="Buscar Superheroe"}}
+  <button class="btn btn-danger" {{action "doSearch" searchTerm}} name="button">Buscar</button>
+</form>
+{{outlet}}

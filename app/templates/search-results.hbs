@@ -1,0 +1,4 @@
+{{#each model.data.results as |superheroes|}}
+  {{superheroe-item name=superheroes.name description="" image=(concat superheroes.thumbnail.path "." superheroes.thumbnail.extension) id=superheroes.id}}
+{{/each}}
+{{outlet}}

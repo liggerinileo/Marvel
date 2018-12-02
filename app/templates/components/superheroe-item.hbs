@@ -1,0 +1,9 @@
+  <article class="blog-post">
+    <h1>{{name}}</h1>
+    <img class="personaje" src="{{image}}">
+    <p>{{description}}</p>
+    {{#link-to "personaje" id}}
+      Look description
+    {{/link-to}}
+  </article>
+{{yield}}

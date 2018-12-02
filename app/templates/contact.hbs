@@ -1,0 +1,12 @@
+  <div class="navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      {{#link-to "index" class="nav-link button"}}
+      Home
+      {{/link-to}}
+    </ul>
+  </div>
+<article class="blog-post">
+  <h3>{{model.name}}</h3>
+  <h4>{{model.info}}</h4>
+</article>
+{{outlet}}
