@@ -4,7 +4,7 @@ export default Route.extend({
 
   model(){
     return  {
-                name : 'Eduardo Pereyra Yraola',
+                name : 'Leandro Liggerini',
                 info : 'Creador de la pagina'
             };
   }
